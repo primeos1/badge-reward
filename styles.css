@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    border-bottom: 10px solid rgb(46, 125, 128) !important;
+    
+}
+
+h2{
+    padding: 1rem;
+    background-color: rgb(46, 125, 128);
+    color: cornsilk;
+    text-align: center;
+}
+
+#demo {
+    font-size: 20px;
+    font-weight: 500;
+    transform: scale(1.5);
+    color: red;
+}
+.enter {
+    padding: 10px !important;
+    text-align: center;
+ }
+
+ .unedit{
+     width: 3em;
+ }
+
+ button {
+     background-color: rgb(46, 125, 128) !important;
+     color: cornsilk !important;
+     border-radius: 5px !important;
+     border: 1px solid rgb(15, 104, 104) ;
+     width: 7em;
+ }
+ button:hover {
+     background-color: rgb(15, 104, 104) !important;
+     color: rgb(238, 227, 185) !important;
+     transform: scale(1.1);  
+ }
+
+ input{
+     border-radius: 6px;
+    
+ }
+ input:focus{
+     outline: none;
+ }
+ 
